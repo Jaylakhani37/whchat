@@ -9,7 +9,7 @@ def preprocess(data):
 
     df = pd.DataFrame({'user_message': messages, 'message_date': dates})
 
-    # Convert AM/PM to lowercase
+    # Convert AM/PM to Lowercase
     df['message_date'] = df['message_date'].str.lower()
 
     try:

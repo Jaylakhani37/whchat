@@ -37,7 +37,7 @@ if upload_file is not None:
             st.header("Number of URL")
             st.title(num_url)
 
-        #timeline
+        #Timeline
         st.title("Monthly timeline")
         timeline=helper.monthly_timeline(selected_user,df)
         fig,ax=plt.subplots();

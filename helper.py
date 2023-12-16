@@ -31,13 +31,6 @@ def most_busy_users(df):
     df = round((df['user'].value_counts()/df.shape[0])*100,2).reset_index().rename(columns={'index':'name','user':'percent'})
     return x,df
 
-# def create_word_cloud(selected_user,df):
-#     if selected_user!='All users':
-#         df = df[df['user'] == selected_user]
-
-#     temp = df[df['user'] != 'Group notification']
-#     temp = temp[temp['message'] != '<Media omitted>\n']
-
 def create_word_cloud(selected_user, df):
     if selected_user != 'All users':
         temp = df[df['user'] == selected_user]
