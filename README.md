@@ -3,7 +3,7 @@
 The aim of this project is to develop a robust WhatsApp chat statistics analysis tool. Leveraging exported WhatsApp chat files, the tool generates insightful graphs and visualizations.
 
 ## Introduction
-The "WhatsApp Chat Analyzer" project, detailed in this technical paper, converges at the crossroads of data science, natural language processing, and information retrieval. Its primary objective is to unlock the potential within WhatsApp conversations. These exchanges harbor a treasure trove of information, encompassing individual sentiments, social dynamics, emerging trends, security vulnerabilities, and knowledge sharing. Our project serves as a comprehensive toolkit, unraveling and elucidating the intricacies embedded in these chats.
+The "WhatsApp Chat Analyzer" project, converges at the crossroads of data science, natural language processing, and information retrieval. Its primary objective is to unlock the potential within WhatsApp conversations. These exchanges harbor a treasure trove of information, encompassing individual sentiments, social dynamics, emerging trends, security vulnerabilities, and knowledge sharing. Our project serves as a comprehensive toolkit, unraveling and elucidating the intricacies embedded in these chats.
 
 ## Project Tools
 - Python: Python, a dynamic and high-level programming language, stands as the undisputed choice for data analysis.
