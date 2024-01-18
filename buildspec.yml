@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo "Starting build..."
+  build:
+    commands:
+      - echo "Running build..."
+  post_build:
+    commands:
+      - echo "Build completed."
+
+artifacts:
+  files:
+    - appspec.yml
+    - requirements.txt
+    - '**/*'
+  discard-paths: no
