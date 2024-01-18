@@ -1,2 +1,2 @@
 #!/bin/bash
-# Add commands that execute before the install phase.
+# Remove specific files that might cause conflicts
