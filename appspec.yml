@@ -3,6 +3,7 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/whchat
+    overwrite: yes
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
