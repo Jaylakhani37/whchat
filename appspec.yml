@@ -3,21 +3,16 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/whchat
-    overwrite: yes
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
       timeout: 300
-      runas: root
   AfterInstall:
     - location: scripts/after_install.sh
       timeout: 300
-      runas: root
   ApplicationStart:
     - location: scripts/start_app.sh
       timeout: 300
-      runas: root
   ValidateService:
     - location: scripts/validate_service.sh
       timeout: 300
-      runas: root

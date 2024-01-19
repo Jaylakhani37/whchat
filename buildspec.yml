@@ -3,17 +3,15 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - echo "Starting build..."
+      - echo "Starting build process..."
   build:
     commands:
-      - echo "Running build..."
+      - echo "Building the project..."
   post_build:
     commands:
-      - echo "Build completed."
+      - echo "Build completed on `date`"
 
 artifacts:
   files:
-    - appspec.yml
-    - requirements.txt
     - '**/*'
-  discard-paths: no
+  discard-paths: yes

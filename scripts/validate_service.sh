@@ -1,3 +1,3 @@
 #!/bin/bash
-# Check if the app is running
-curl http://localhost:8501
+# This script is used to validate the service.
+curl -f http://localhost:8501
