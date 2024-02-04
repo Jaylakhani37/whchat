@@ -4,7 +4,7 @@ import preprocessor, helper
 import seaborn as sns
 
 st.set_page_config(layout="wide")
-st.sidebar.title("WhatsApp Chat Analyzer By Jay L A")
+st.sidebar.title("WhatsApp Chat Analyzer By Jay Lakhani")
 
 upload_file = st.sidebar.file_uploader("Upload a .txt file")
 if upload_file is not None:
